@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="header clearfix">
+    <nav>
+      <ul class="nav nav-pills float-right">
+        <li class="nav-item mr-20">
+          <select
+            [(ngModel)]="currentLang"
+            (change)="changeLanguage()"
+            class="form-control h-100">
+            <option
+              *ngFor="let lang of langs"
+              [value]="lang">
+              {{lang}}
+            </option>
+          </select>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            routerLink="/">
+            {{'home' | translate}}
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            routerLink="/lazy">
+            {{'lazy' | translate}}
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <h3 class="text-muted">Angular 4 Skeleton</h3>
+  </div>
+
+  <router-outlet></router-outlet>
+
+  <footer class="footer">
+  </footer>
+</div>

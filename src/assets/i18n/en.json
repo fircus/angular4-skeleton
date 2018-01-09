@@ -1,0 +1,17 @@
+{
+  "main.title": "A powerfull Angular 4 application with server side rendering, ahead-of-time compilation, internationalization and lazy loaded modules",
+  "title.1": "Server Side Rendering",
+  "title.2": "Ahead-Of-Time Compilation",
+  "title.3": "Internalization",
+  "title.4": "Lazy Loading",
+  "title.5": "Webpack 3",
+  "title.6": "SASS",
+  "text.1": "This application is rendered on the server firstly that allows search engines to see meta tags and increases page load speed.",
+  "text.2": "AOT is a method of compilation, which is executed while the building process whereas JIT (Just-in-Time) compilation is executed every time when application is launched. It allows us to find errors while building, increase page load speed, increase safety, decrease bundle size.",
+  "text.3": "Easy and flexible support of internationalization. Just add a json file with translations.",
+  "text.4": "Pages are loaded lazy. It means that on first load only needed resources are loaded. It increases page load speed and decreases bundle size.",
+  "text.5": "The application uses new webpack 3, that makes development process quick, flexible and clear.",
+  "text.6": "This application uses SASS preprocessor.",
+  "home": "Home",
+  "lazy": "Lazy"
+}
